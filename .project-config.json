@@ -1,0 +1,43 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "db",
+    "server",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://nBBSSUZA4EGgbs8.root:s7RY4dif27tc3n5rkhJr@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/KE9pSuKLL8QfDbLzhu7qT5?ssl={\"rejectUnauthorized\":true}",
+    "DRIZZLE_DATABASE_URL": "mysql://nBBSSUZA4EGgbs8.root:s7RY4dif27tc3n5rkhJr@gateway04.us-east-1.prod.aws.tidbcloud.com:4000/KE9pSuKLL8QfDbLzhu7qT5?ssl={\"rejectUnauthorized\":true}",
+    "MANUS_WEBDEV_PROJECT_ID": "KE9pSuKLL8QfDbLzhu7qT5"
+  },
+  "experiments": null,
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/KE9pSuKLL8QfDbLzhu7qT5.git",
+    "expiration": "2026-08-28T12:08:34.412Z",
+    "token": "art_v2_x_abe8bdac1b241fe37bb679bfda5295e52049bd84?expires=1787918914",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "requirements-website",
+  "path": "/home/ubuntu/requirements-website",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "QUztSGV9RsrRFJVTbNqu5k",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "U7r8Q3cxhoUMfDPUSXwvt6",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Subhasree Panda",
+    "OWNER_OPEN_ID": "7srWuExLJaECgSMdqp7arN",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "9d4256ec-b2f4-4344-b07a-87caee5abce2",
+    "VITE_APP_ID": "KE9pSuKLL8QfDbLzhu7qT5",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663919000769/cRHSgMczIrgXlppk.png",
+    "VITE_APP_TITLE": "Requirements Website",
+    "VITE_AUTH_API_BASE_URL": "20",
+    "VITE_FRONTEND_FORGE_API_KEY": "DMGoWCXHhSARJMMZqsfoKY",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
